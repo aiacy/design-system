@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floor Chat Podcast | with @ellybee__ & Aliyah from @amiacoderyet</title>
+</head>
+<style>
+    :root{
+        --main-bg-color: #F394E5;
+        --main-font-color: #830810;
+        --paragraph-font-size: 16px;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-size: var(--paragraph-font-size);
+        line-height: calc(var(--paragraph-font-size) + 2px);
+    }
+
+
+    .container{
+       display: grid;
+   }
+
+    .col-2{
+        grid-template-columns: 1fr 1fr;
+    }
+    main{
+        height: 100vh;
+        background-color: aquamarine;
+    }
+
+   header{
+       height: 4rem;
+       background-color: var(--main-bg-color);
+   }
+
+
+   /*******************************************************
+   *              Full Page Menu - 2 Col                  *
+   /*******************************************************/
+   .menu{
+       height: 100vh;
+       width: 100%;
+       background-color: coral;
+   }
+
+   .menu-left{
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+   }
+
+   .menu-right{
+    background-color: var(--main-font-color);
+    color: var(--main-bg-color);
+   }
+
+
+
+</style>
+<body>
+    <main class="container">
+
+        <header>
+
+        </header>
+
+    </main>
+
+    <div class="container menu col-2">
+        <div class="menu-left">
+            <div class="container col-2">
+                <p class="menu-item-number">1</p>
+                <p class="menu-item-name">Home</p>
+            </div>
+            <div class="container col-2">
+                <p class="menu-item-number">2</p>
+                <p class="menu-item-name">Home</p>
+            </div>
+            <div class="container col-2">
+                <p class="menu-item-number">3</p>
+                <p class="menu-item-name">Home</p>
+            </div>
+            <div class="container col-2">
+                <p class="menu-item-number">4</p>
+                <p class="menu-item-name">Home</p>
+            </div>
+            <div class="container col-2">
+                <p class="menu-item-number">5</p>
+                <p class="menu-item-name">Home</p>
+            </div>
+        </div>
+        <div class="menu-right">
+            <div class="container">
+               <h2 class="menu-title"></h2>
+
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
